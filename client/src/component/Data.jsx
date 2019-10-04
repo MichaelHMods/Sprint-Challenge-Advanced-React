@@ -31,8 +31,10 @@ componentDidMount() {
 
         },[])
         .catch(err => console.log('This is your error, change your life decisions', err))
-};
+}; 
+
 render(){
+    
     return(
         <div className="fancy-div" data-testid="divtag">
             <div className="soccer">

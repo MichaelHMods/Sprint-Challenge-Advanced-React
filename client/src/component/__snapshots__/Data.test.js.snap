@@ -6,35 +6,39 @@ exports[`renders 1`] = `
     class="fancy-div"
     data-testid="divtag"
   >
-    <nav
-      class="navbar"
-    >
-      <h1>
-        Womens Soccer
-      </h1>
-      <div
-        class="dark-mode__toggle"
-      >
-        <div
-          class="toggle"
-        />
-      </div>
-    </nav>
     <div
-      class="main-card"
+      class="soccer"
     >
-      <div
-        class="inside-card"
+      <nav
+        class="navbar"
       >
         <h1>
-          Player: 
+          Womens Soccer
         </h1>
-        <h2>
-          Country or Origin:  
-        </h2>
-        <h5>
-          Times searched on Google:  
-        </h5>
+        <div
+          class="dark-mode__toggle"
+        >
+          <div
+            class="toggle"
+          />
+        </div>
+      </nav>
+      <div
+        class="main-card"
+      >
+        <div
+          class="inside-card"
+        >
+          <h1>
+            Player: 
+          </h1>
+          <h2>
+            Country or Origin:  
+          </h2>
+          <h5>
+            Times searched on Google:  
+          </h5>
+        </div>
       </div>
     </div>
   </div>

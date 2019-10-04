@@ -4,7 +4,7 @@ import "@testing-library/jest-dom/extend-expect";
 import Data from './Data';
 
 
-afterEach(cleanup);
+
 
 it("renders", () => {
     const { asFragment } = render(<Data text="Soccer"/>); 
