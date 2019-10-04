@@ -8,7 +8,7 @@ import Data from './component/Data';
 function App() {
   return (
     <div className="App">
-     <h2>FML</h2>
+     {/* <h2>FML</h2> */}
      <Data/>
     </div>
   );

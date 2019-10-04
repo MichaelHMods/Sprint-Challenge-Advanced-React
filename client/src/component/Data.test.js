@@ -4,6 +4,7 @@ import "@testing-library/jest-dom/extend-expect";
 import Data from './Data';
 
 
+afterEach(cleanup);
 
 
 it("renders", () => {
@@ -13,6 +14,14 @@ it("renders", () => {
 
 it('inserts text in div', () => {
     const {getByTestId, getByText} = render(<Data/>);
-    expect(getByTestId("divtag")).toHaveTextContent('soccer');
-    expect(getByText('soccer')).toHaveClass('fancy-div');
+    expect(getByTestId("divtag")).toHaveTextContent('Soccer');
+    expect(getByText('Soccer')).toHaveClass("fancy-div");
 })
+
+it('renders without crashing',  () => {
+    render(<Data/>)
+} )
+
+
+
+ 

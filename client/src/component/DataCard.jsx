@@ -2,7 +2,7 @@ import React from 'react';
 
 
 function DataCard(props) {
-    console.log('this is props on the DataCard Page', props);
+    // console.log('this is props on the DataCard Page', props);
     return(
         <div className="main-card">
             <div className="inside-card">
