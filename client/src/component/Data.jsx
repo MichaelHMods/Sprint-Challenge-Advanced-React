@@ -4,6 +4,7 @@ import axios from 'axios';
 
 //import component
 import DataCard from './DataCard';
+import NavBar from './NavBar';
 
 class Data extends React.Component{
     state = {
@@ -30,15 +31,14 @@ componentDidMount() {
 
         },[])
         .catch(err => console.log('This is your error, change your life decisions', err))
-}
-
-render()     {
+};
+render(){
     return(
-        <div className="page-container">
-            {/* <DataCard name={this.state.name} country={this.state.country} searches={this.state.searches}/> */}
-          
+        <div className="fancy-div" data-testid="divtag">
+            <div className="soccer">
+                <NavBar/>
                 {this.state.player.map((item, i) => <DataCard item={item} key={i}/>)}
-           
+            </div>
         </div>
     )
 }
