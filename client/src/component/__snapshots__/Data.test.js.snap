@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<DocumentFragment>
+  <div
+    class="soccer"
+  >
+    <nav
+      class="navbar"
+    >
+      <h1>
+        Womens Soccer
+      </h1>
+      <div
+        class="dark-mode__toggle"
+      >
+        <div
+          class="toggle"
+        />
+      </div>
+    </nav>
+    <div>
+      <h1
+        class="fancy-div"
+        data-testid="divtag"
+      >
+        Soccer
+      </h1>
+    </div>
+    <div
+      class="main-card"
+    >
+      <div
+        class="inside-card"
+      >
+        <h1>
+          Player: 
+        </h1>
+        <h2>
+          Country or Origin:  
+        </h2>
+        <h5>
+          Times searched on Google:  
+        </h5>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
